@@ -1,0 +1,21 @@
+.flex,
+.flex-row,
+.flex-full,
+.flex-column {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column,
+.flex-full {
+    flex-direction: column;
+}
+
+.flex-full {
+    flex: 1 1 auto;
+    min-width: 1px;
+    min-height: 1px;
+}
