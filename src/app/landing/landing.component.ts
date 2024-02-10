@@ -1,17 +1,15 @@
 import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: "app-new-landing-page",
-  templateUrl: "./landing.component.html",
+    selector: "app-new-landing-page",
+    templateUrl: "./landing.component.html",
 })
-
 export class LandingComponent implements OnInit {
-
     features = [
-        { name: "Market Place", route: "/market"},
-        { name: "Details", route: "/details"},
-        { name: "Forum", route: "/forum"},
-        { name: "Community", route: "/community"},
+        { name: "Market Place", route: "/market" },
+        { name: "Details", route: "/details" },
+        { name: "Forum", route: "/forum" },
+        { name: "Community", route: "/community" },
     ];
 
     constructor() {
@@ -22,7 +20,5 @@ export class LandingComponent implements OnInit {
         console.log("called init landing page");
     }
 
-    onClick() {
-
-    }
+    onClick() {}
 }
