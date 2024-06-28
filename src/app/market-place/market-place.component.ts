@@ -1,15 +1,8 @@
-import { Component, OnInit } from "@angular/core";
+import { Component } from "@angular/core";
 
 @Component({
     selector: "app-market-place",
+    styleUrls: ["./market-place.component.scss"],
     templateUrl: "./market-place.component.html",
 })
-export class MarketPlaceComponent implements OnInit {
-    constructor() {
-        console.log("called the constructor");
-    }
-
-    ngOnInit() {
-        console.log("called init");
-    }
-}
+export class MarketPlaceComponent {}

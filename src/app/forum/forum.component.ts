@@ -1,17 +1,10 @@
-import { Component, OnInit } from "@angular/core";
+import { Component } from "@angular/core";
 
 @Component({
-  selector: "app-forum",
-  templateUrl: "./forum.component.html",
+    selector: "app-forum",
+    styleUrls: ["./landing.component.scss"],
+    templateUrl: "./forum.component.html",
 })
-
-export class ForumComponent implements OnInit {
-
-    constructor() {
-        console.log("called the constructor");
-    }
-
-    ngOnInit() {
-        console.log("called init");
-    }
+export class ForumComponent {
+ 
 }
