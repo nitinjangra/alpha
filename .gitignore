@@ -50,3 +50,9 @@ Thumbs.db
 # VSCode
 .vscode/
 .angulardoc.json
+
+.nx/cache
+.nx/workspace-data
+
+
+//completed with installation of the eslint and now will be configuring the eslint (pending)
