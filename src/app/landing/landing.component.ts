@@ -8,7 +8,6 @@ import { Component } from "@angular/core";
 export class LandingComponent {
     features = [
         { name: "Market Place", route: "/market" },
-        { name: "Details", route: "/details" },
         { name: "Forum", route: "/forum" },
         { name: "Community", route: "/community" },
     ];
