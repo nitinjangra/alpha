@@ -1,4 +1,4 @@
-# alpha dummy project contains angular migration example
+# project contains angular migration example for bumping Angular v7 to v21
 
 dated:
 september 7, 2019 : repo created with angular v7

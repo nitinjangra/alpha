@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "dummy": {
+        "migration": {
             "root": "",
             "sourceRoot": "src",
             "projectType": "application",
@@ -13,7 +13,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/dummy",
+                        "outputPath": "dist/migration",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": ["zone.js"],
@@ -51,19 +51,19 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "buildTarget": "dummy:build",
+                        "buildTarget": "migration:build",
                         "port": 4200
                     },
                     "configurations": {
                         "production": {
-                            "buildTarget": "dummy:build:production"
+                            "buildTarget": "migration:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "buildTarget": "dummy:build"
+                        "buildTarget": "migration:build"
                     }
                 },
                 "test": {
